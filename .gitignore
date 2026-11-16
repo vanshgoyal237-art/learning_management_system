@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+uploads/assignments/*
+uploads/materials/*
+!uploads/assignments/.gitkeep
+!uploads/materials/.gitkeep
+DEMO_ACCOUNTS.md
+
+# trained model files depend on the scikit-learn version: train them on each machine (python model/train_model.py)
+model/artifacts/*.pkl
+model/artifacts/dataset.csv
+.pytest_cache/
+*.log
+!uploads/assignments/.gitkeep
+!uploads/materials/.gitkeep

@@ -1,0 +1,18 @@
+Flask>=3.0
+Flask-Login>=0.6.3
+PyMySQL>=1.1
+# needed by PyMySQL for MySQL 8's default caching_sha2_password login
+cryptography>=42
+python-dotenv>=1.0
+numpy>=1.26
+pandas>=2.1
+# a saved .pkl must be loaded with the scikit-learn version that trained it - just re-run train_model.py
+scikit-learn>=1.5
+joblib>=1.3
+Faker>=24
+# confusion-matrix PNG only
+matplotlib>=3.8
+# test runner (VS Code's Testing panel uses it)
+pytest>=8
+# production server (Linux/macOS only; on Windows use `flask run` or waitress)
+gunicorn>=22
